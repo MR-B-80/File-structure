@@ -7,54 +7,293 @@
     <title>Files and Folder Srtucture</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/mainStyles.css">
+    <link rel="stylesheet" href="/scss/navbar/navbar.css">
+    <link rel="stylesheet" href="/scss/Home/home.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
-<body>
+<body dir="rtl" class="home p-0">
     <div class="navbar_wraper">
         <!-- will load common navbar with js $().load() method -->
     </div>
-    <section class="home_header">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-5">
-                    <p class="mb-2 robo_bold_12">TAGLINE</p>
-                    <h1 class="hero_tagline">
-                        Files and Folder Structure <br class="mob_hidden">for Web Development
-                    </h1>
-                    <p class="robo_reg_16">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
 
-                <div class="col-lg-6">
-                    <img src="./img/hero.jpg" class="img-fluid" width="100%" alt="">
-                </div>
+    <div class="d-flex flex-row flex-wrap container-item justify-content-around">
+
+        <div class="text-center border shadow item">
+            <div class="item-title">
+                <img src="img/home/laptop.png" width="138" height="138" alt="">
+                <h5>تعمیرات لپ تاپ</h5>
+                <p class="text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </p>
             </div>
+            <div class="text-left p-2 ">
+                <a href="#"> <small>بیشتر بخوانید</small> </a>
+            </div>
+            <div class="bottom-line"></div>
         </div>
-    </section>
-    <section class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-6 mx-auto text-center">
-                    <p class="mb-2 robo_bold_12">TAGLINE</p>
-                    <h1 class="hero_tagline">
-                        Long headline to turn your <br class="mob_hidden">visitors into users
-                    </h1>
-                    <p class="robo_reg_16">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
+        <div class="text-center border shadow item">
+            <div class="item-title">
+                <img src="img/home/payment-method.png"  width="138" height="138" alt="">
+                <h5>خرید و فروش</h5>
+                <p class="text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </p>
+            </div>
+            <div class="text-left p-2">
+                <a href="#"> <small>بیشتر بخوانید</small> </a>
+            </div>
+            <div class="bottom-line"></div>
+        </div>
+        <div class="text-center border shadow item">
+            <div class="item-title">
+                <img src="img/home/guarantee.png"  width="138" height="138" alt="">
+                <h5>گارانتی سه ماهه رایگان</h5>
+                <p class="text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </p>
+            </div>
+            <div class="text-left p-2">
+                <a href="#"> <small>بیشتر بخوانید</small> </a>
+            </div>
+            <div class="bottom-line"></div>
+        </div>
+        <div class="text-center border shadow item">
+            <div class="item-title">
+                <img src="img/home/cog.png"  width="138" height="138" alt="">
+                <h5>تامین قطعات</h5>
+                <p class="text-secondary">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </p>
+            </div>
+            <div class="text-left p-2">
+                <a href="#"> <small>بیشتر بخوانید</small> </a>
+            </div>
+            <div class="bottom-line"></div>
+        </div>
+    </div>    
 
-                
-                <div class="col-md-10 mx-auto mt-5">
-                        <div class="video_container">
-                            <img src="/img/play-button.svg" width="50px;" alt="" class="img-fuid">
-                        </div>
+    <div class="main-title mt-5">
+        <div class="title">
+            <h4>محصولات</h4>
+        </div>
+        <div class="line"></div>
+    </div>
+
+    <div class="d-flex flex-row flex-wrap container-item2 justify-content-around mt-5">
+        <div class="bg-light item text-center p-4">
+            <img src="img/home/728333-removebg-preview.png" width="195" height="195" alt="">
+            <div class="bg-white item-title w-100 p-2 mt-3" >
+                <p>هارد اکسترنال ای دیتا مدل hd710pro</p>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>ای دیتا</p>
+                    <div class=" d-flex flex-row">
+                        <small class="pt-1">(88)</small>
+                        <p class="mx-1">4.1</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21">
+                            <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M9.922.73,7.6,6.159l-5.189.874a1.374,1.374,0,0,0-.629,2.239L5.54,13.5l-.888,5.967c-.16,1.079.824,1.886,1.648,1.382l4.642-2.817,4.642,2.817c.824.5,1.808-.3,1.648-1.382L16.343,13.5,20.1,9.272a1.374,1.374,0,0,0-.629-2.239L14.28,6.159,11.961.73a1.076,1.076,0,0,0-2.039,0Z" transform="translate(-1.441 0.001)" fill="#eca72c"/>
+                        </svg>
                     </div>
+                </div>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>6,444,000 تومان</p>
+                    <button class="btn btn-light eye-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon" width="17.066" height="10.5" viewBox="0 0 17.066 11.5">
+                            <path id="Icon_ionic-md-eye" data-name="Icon ionic-md-eye" d="M10.783,7.383a9.176,9.176,0,0,0-8.533,5.75,9.207,9.207,0,0,0,17.066,0A9.176,9.176,0,0,0,10.783,7.383Zm0,9.585a3.835,3.835,0,1,1,3.878-3.835A3.867,3.867,0,0,1,10.783,16.967Zm0-6.135a2.3,2.3,0,1,0,2.328,2.3A2.321,2.321,0,0,0,10.783,10.833Z" transform="translate(-2.25 -7.383)" fill="#011c40"/>
+                        </svg>
+                    </button>
+                   
+                </div>
             </div>
         </div>
-    </section>
-    
+        <div class="bg-light item text-center p-4">
+            <img src="img/home/728333-removebg-preview.png" width="195" height="195" alt="">
+            <div class="bg-white item-title w-100 p-2 mt-3" >
+                <p>هارد اکسترنال ای دیتا مدل hd710pro</p>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>ای دیتا</p>
+                    <div class=" d-flex flex-row">
+                        <small class="pt-1">(88)</small>
+                        <p class="mx-1">4.1</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21">
+                            <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M9.922.73,7.6,6.159l-5.189.874a1.374,1.374,0,0,0-.629,2.239L5.54,13.5l-.888,5.967c-.16,1.079.824,1.886,1.648,1.382l4.642-2.817,4.642,2.817c.824.5,1.808-.3,1.648-1.382L16.343,13.5,20.1,9.272a1.374,1.374,0,0,0-.629-2.239L14.28,6.159,11.961.73a1.076,1.076,0,0,0-2.039,0Z" transform="translate(-1.441 0.001)" fill="#eca72c"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>6,444,000 تومان</p>
+                    <button class="btn btn-light eye-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon" width="17.066" height="10.5" viewBox="0 0 17.066 11.5">
+                            <path id="Icon_ionic-md-eye" data-name="Icon ionic-md-eye" d="M10.783,7.383a9.176,9.176,0,0,0-8.533,5.75,9.207,9.207,0,0,0,17.066,0A9.176,9.176,0,0,0,10.783,7.383Zm0,9.585a3.835,3.835,0,1,1,3.878-3.835A3.867,3.867,0,0,1,10.783,16.967Zm0-6.135a2.3,2.3,0,1,0,2.328,2.3A2.321,2.321,0,0,0,10.783,10.833Z" transform="translate(-2.25 -7.383)" fill="#011c40"/>
+                        </svg>
+                    </button>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="bg-light item text-center p-4">
+            <img src="img/home/728333-removebg-preview.png" width="195" height="195" alt="">
+            <div class="bg-white item-title w-100 p-2 mt-3" >
+                <p>هارد اکسترنال ای دیتا مدل hd710pro</p>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>ای دیتا</p>
+                    <div class=" d-flex flex-row">
+                        <small class="pt-1">(88)</small>
+                        <p class="mx-1">4.1</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21">
+                            <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M9.922.73,7.6,6.159l-5.189.874a1.374,1.374,0,0,0-.629,2.239L5.54,13.5l-.888,5.967c-.16,1.079.824,1.886,1.648,1.382l4.642-2.817,4.642,2.817c.824.5,1.808-.3,1.648-1.382L16.343,13.5,20.1,9.272a1.374,1.374,0,0,0-.629-2.239L14.28,6.159,11.961.73a1.076,1.076,0,0,0-2.039,0Z" transform="translate(-1.441 0.001)" fill="#eca72c"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>6,444,000 تومان</p>
+                    <button class="btn btn-light eye-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon" width="17.066" height="10.5" viewBox="0 0 17.066 11.5">
+                            <path id="Icon_ionic-md-eye" data-name="Icon ionic-md-eye" d="M10.783,7.383a9.176,9.176,0,0,0-8.533,5.75,9.207,9.207,0,0,0,17.066,0A9.176,9.176,0,0,0,10.783,7.383Zm0,9.585a3.835,3.835,0,1,1,3.878-3.835A3.867,3.867,0,0,1,10.783,16.967Zm0-6.135a2.3,2.3,0,1,0,2.328,2.3A2.321,2.321,0,0,0,10.783,10.833Z" transform="translate(-2.25 -7.383)" fill="#011c40"/>
+                        </svg>
+                    </button>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="bg-light item text-center p-4">
+            <img src="img/home/728333-removebg-preview.png" width="195" height="195" alt="">
+            <div class="bg-white item-title w-100 p-2 mt-3" >
+                <p>هارد اکسترنال ای دیتا مدل hd710pro</p>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>ای دیتا</p>
+                    <div class=" d-flex flex-row">
+                        <small class="pt-1">(88)</small>
+                        <p class="mx-1">4.1</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21">
+                            <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M9.922.73,7.6,6.159l-5.189.874a1.374,1.374,0,0,0-.629,2.239L5.54,13.5l-.888,5.967c-.16,1.079.824,1.886,1.648,1.382l4.642-2.817,4.642,2.817c.824.5,1.808-.3,1.648-1.382L16.343,13.5,20.1,9.272a1.374,1.374,0,0,0-.629-2.239L14.28,6.159,11.961.73a1.076,1.076,0,0,0-2.039,0Z" transform="translate(-1.441 0.001)" fill="#eca72c"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class=" d-flex flex-row justify-content-between">
+                    <p>6,444,000 تومان</p>
+                    <button class="btn btn-light eye-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon" width="17.066" height="10.5" viewBox="0 0 17.066 11.5">
+                            <path id="Icon_ionic-md-eye" data-name="Icon ionic-md-eye" d="M10.783,7.383a9.176,9.176,0,0,0-8.533,5.75,9.207,9.207,0,0,0,17.066,0A9.176,9.176,0,0,0,10.783,7.383Zm0,9.585a3.835,3.835,0,1,1,3.878-3.835A3.867,3.867,0,0,1,10.783,16.967Zm0-6.135a2.3,2.3,0,1,0,2.328,2.3A2.321,2.321,0,0,0,10.783,10.833Z" transform="translate(-2.25 -7.383)" fill="#011c40"/>
+                        </svg>
+                    </button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-title mt-5">
+        <div class="title">
+            <h4>بلاگ</h4>
+        </div>
+        <div class="line"></div>
+    </div>
+
+    <div class="d-flex flex-row flex-wrap justify-content-around container-item3 p-3 pb-5">
+        <div class="item text-center pt-3">
+            <div class="position-relative item-img">
+                <img src="img/home/windows-11-in-browser.png" class="img" width="300" height="221" alt="">
+                <div class="position-absolute img-gradient"></div>
+
+            </div>
+            <div class="bg-white mx-2 text-right text p-4 my-3">
+                <p  style="font-size: 17px;font-weight: 600;" >آموزش نصب ویندوز11</p>
+                <div class="main-text">
+                    <p class='text-color' style="font-size:13px;">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                </div>
+                <a class="text-danger text-decoration-none" href="#">ادامه مطلب >></a>
+            </div>
+           
+        </div>
+        <div class="item text-center pt-3">
+            <div class="position-relative item-img">
+                <img src="img/home/Credit-cards-equipped-with-a-fingerprint-sensor.png" class="img" width="300" height="221" alt="">
+                <div class="position-absolute img-gradient"></div>
+
+            </div>
+            <div class="bg-white mx-2 text-right text p-4 my-3">
+                <p style="font-size: 17px;font-weight: 600;">
+                    کارت های اعتباری مجهز به حسگر اثر انگشت
+                </p>
+                <div class="main-text">
+                    <p class='text-color' style="font-size:13px;">
+                        شرکت سامسونگ امروز از آی سی امنیتی اثر انگشت جدید (مدار مجتمع) برای کارت های اعتباری رونمایی کرد. در ادامه با این چیپست که نقش مهمی در ارتقای سطح امنیتی کارت‌ های پرداخت خواهد داشت، بیشتر آشنا میشویم
+                    </p>
+                </div>
+                <a class="text-danger text-decoration-none" href="#">ادامه مطلب >></a>
+            </div>
+           
+        </div>
+        <div class="item text-center pt-3">
+            <div class="position-relative item-img">
+                <img src="img/home/لپ-تاپ-مهندسی.png" class="img" width="300" height="221" alt="">
+                <div class="position-absolute img-gradient"></div>
+
+            </div>
+            <div class="bg-white mx-2 text-right text p-4 my-3">
+                <p  style="font-size: 17px;font-weight: 600;" >قوی ترین لپ تاپ مهندسی جهان</p>
+                <div class="main-text">
+                    <p class='text-color' style="font-size:13px;">
+                        لپ تاپ‌های ایستگاه کاری در حقیقت لپ تاپ‌ با کارایی بسیار بالا هستند که ظاهر ساده و مینیمال دارند
+                    </p>
+                </div>
+                <a class="text-danger text-decoration-none" href="#">ادامه مطلب >></a>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="w-100 about-us text-center">
+        <h1 class="text-white my-5" style="font-size: 67px;">درباره ما</h1>
+        <img src="img/home/GRC_preview.png" alt="">
+        <p class="text-white mx-auto my-5" style="width: 500px;">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از 
+            صنعت چاپ، و با استفاده از طراحان گرافیک است، 
+            چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+            سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی 
+            مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی 
+            می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال 
+            و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا 
+            با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+        </p>
+    </div>
+
+    <div class="position-relative container-item4">
+        <h2>نظرات مشتریان</h2>
+        <div>
+            <div class="border item shadow-sm">
+                <div></div>
+                <div class="d-flex flex-row">
+                     <strong>
+                        مسعود میرزایی
+                    </strong>
+                    <div class="d-flex flex-row justify-content-between w-50 mx-4" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M5.9.347,4.684,2.933l-2.731.416a.633.633,0,0,0-.331,1.066L3.6,6.426,3.131,9.268A.6.6,0,0,0,4,9.926L6.441,8.584,8.884,9.926a.6.6,0,0,0,.867-.658L9.284,6.426,11.26,4.415a.633.633,0,0,0-.331-1.066L8.2,2.933,6.978.347A.588.588,0,0,0,5.9.347Z" transform="translate(-1.441 0.001)" fill="#f2bf27"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                        <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M5.9.347,4.684,2.933l-2.731.416a.633.633,0,0,0-.331,1.066L3.6,6.426,3.131,9.268A.6.6,0,0,0,4,9.926L6.441,8.584,8.884,9.926a.6.6,0,0,0,.867-.658L9.284,6.426,11.26,4.415a.633.633,0,0,0-.331-1.066L8.2,2.933,6.978.347A.588.588,0,0,0,5.9.347Z" transform="translate(-1.441 0.001)" fill="#f2bf27"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                        <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M5.9.347,4.684,2.933l-2.731.416a.633.633,0,0,0-.331,1.066L3.6,6.426,3.131,9.268A.6.6,0,0,0,4,9.926L6.441,8.584,8.884,9.926a.6.6,0,0,0,.867-.658L9.284,6.426,11.26,4.415a.633.633,0,0,0-.331-1.066L8.2,2.933,6.978.347A.588.588,0,0,0,5.9.347Z" transform="translate(-1.441 0.001)" fill="#f2bf27"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                        <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M5.9.347,4.684,2.933l-2.731.416a.633.633,0,0,0-.331,1.066L3.6,6.426,3.131,9.268A.6.6,0,0,0,4,9.926L6.441,8.584,8.884,9.926a.6.6,0,0,0,.867-.658L9.284,6.426,11.26,4.415a.633.633,0,0,0-.331-1.066L8.2,2.933,6.978.347A.588.588,0,0,0,5.9.347Z" transform="translate(-1.441 0.001)" fill="#f2bf27"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                        <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M5.9.347,4.684,2.933l-2.731.416a.633.633,0,0,0-.331,1.066L3.6,6.426,3.131,9.268A.6.6,0,0,0,4,9.926L6.441,8.584,8.884,9.926a.6.6,0,0,0,.867-.658L9.284,6.426,11.26,4.415a.633.633,0,0,0-.331-1.066L8.2,2.933,6.978.347A.588.588,0,0,0,5.9.347Z" transform="translate(-1.441 0.001)" fill="#f2bf27"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-center">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از 
+                        صنعت چاپ، و با استفاده از طراحان گرافیک است، 
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و 
+                        سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی 
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی 
+                        می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال 
+                        و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا 
+                        با نرم افزارها شناخت بیشتری را برای طراحان رایانه 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="footer_wraper">
          <!-- will load common footer with js $().load() method -->

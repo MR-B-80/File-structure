@@ -1,0 +1,15 @@
+.navbar-style {
+  background-color: #F8F7FE;
+  -webkit-box-shadow: 10px;
+          box-shadow: 10px;
+}
+
+.navbar-style .navbar_links > .nav-item:hover {
+  background-color: aqua;
+}
+
+.navbar-style .navbarSupportedContent {
+  width: 20% !important;
+  background-color: black !important;
+}
+/*# sourceMappingURL=navbar.css.map */

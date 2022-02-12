@@ -1,0 +1,13 @@
+.navbar-style{
+    background-color: #F8F7FE;
+    box-shadow: 10px;
+    .navbar_links>.nav-item{
+        &:hover{
+            background-color: aqua;
+        }
+    }
+    .navbarSupportedContent{
+        width: 20% !important;
+        background-color: black !important;
+    }
+}

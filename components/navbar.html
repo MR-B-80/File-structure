@@ -1,35 +1,23 @@
-<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+<nav class="navbar navbar-style navbar-expand-lg w-100 border-bottom rounded shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="#">Company</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav navbar_links ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"> <img src="../img/Logos/GRC_Logo-removebg-preview.png" alt=""> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about-us.html">About Us</a>
+                    <a class="nav-link" href="#">خانه</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact-us.html">Contact Us</a>
+                    <a class="nav-link" href="#">فروشگاه</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">وبلاگ</a>
                 </li>
             </ul>
         </div>
+        <input type="text">
+        <a href="#"> <small>حساب کاربری</small> </a>
     </div>
 </nav>
 
-<script>
-    //set Active link according to pages
-    var origin = window.location.origin;
-    var page_location = window.location.href.replace(origin + '/', '').trim();
-    // console.log(page_location);
-    $('.navbar_links a[href*="' + page_location + '"]').addClass('active').siblings().removeClass('active');
-    
-    if (page_location == "" || null) {
-        $('.navbar_links a[href="/"]').addClass('active').siblings().removeClass('active');
-    }
-</script>
