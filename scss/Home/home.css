@@ -1,3 +1,7 @@
+.home {
+  direction: rtl !important;
+}
+
 .home .container-item {
   width: 100%;
 }

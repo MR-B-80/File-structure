@@ -5,7 +5,9 @@
 }
 
 .navbar-style .navbar_links > .nav-item:hover {
-  background-color: aqua;
+  background-color: #5F7ED9;
+  color: white;
+  border-radius: 20%;
 }
 
 .navbar-style .navbarSupportedContent {
