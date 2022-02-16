@@ -1,18 +1,25 @@
-.navbar > .container{
-    border-bottom: solid 1px $pri_gray; 
-    padding-bottom: 10px;
-
-    @include responsive_mobile(){
-        padding-bottom: 0px;
+// .navbar_wraper{
+// }
+.navbar-style{
+    background-color: #F8F7FE;
+    box-shadow: 10px;
+    .navbar_links>.nav-item{
+        text-align: center;
+        margin: 0 10px;
+        width: 100px;
+        border-radius: 40px;
+        a{
+            color: black !important;
+        }
+        &:hover{
+            background-color: #5F7ED9;
+            a{
+                color: white !important;
+            }
+        }
     }
-}
-
-.nav-link, .navbar-brand{
-    color: #000;
-}
-
-.nav-link{
-    &.active{
-        border-bottom: solid 3px $pri_blue;
+    .navbarSupportedContent{
+        width: 20% !important;
+        background-color: black !important;
     }
 }

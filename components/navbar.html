@@ -1,8 +1,9 @@
 <nav class="navbar navbar-style navbar-expand-lg w-100 border-bottom rounded shadow-sm">
-    <div class="container">
+    <div class="container d-flex flex-row px-3" style="width: 80%; margin-right: 70px;">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
             <ul class="navbar-nav navbar_links ml-auto">
-                <li class="nav-item">
+                <li class="">
                     <a class="nav-link" href="#"> <img src="../img/Logos/GRC_Logo-removebg-preview.png" alt=""> </a>
                 </li>
                 <li class="nav-item">
@@ -16,8 +17,54 @@
                 </li>
             </ul>
         </div>
-        <input type="text">
-        <a href="#"> <small>حساب کاربری</small> </a>
+        <div class="position-relative" style="width: 30%;">
+            <input type="text" style=" height: 46px;" class="form-control bg-light  border border-dark ps-5" placeholder="جستجو">
+            <i class="fa-solid fa-magnifying-glass position-absolute" style="right: 10px;top:16px;"></i>
+        </div>
+        <a href="#" class="text-decoration-none text-dark mt-2 mx-5"> <small>حساب کاربری</small> </a>
+        <button type="button" class="btn position-relative mt-2" style="box-shadow: none;">
+            <i class="fa-solid fa-cart-shopping fs-4"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                3
+              <span class="visually-hidden">unread messages</span>
+            </span>
+        </button>
     </div>
 </nav>
-
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav navbar_links ml-auto">
+            <li class="">
+                <a class="nav-link" href="#"> <img src="../img/Logos/GRC_Logo-removebg-preview.png" alt=""> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">خانه</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">فروشگاه</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">وبلاگ</a>
+            </li>
+        </ul>
+         <div class="position-relative" style="width: 30%;">
+            <input type="text" style=" height: 46px;" class="form-control bg-light  border border-dark ps-5" placeholder="جستجو">
+            <i class="fa-solid fa-magnifying-glass position-absolute" style="right: 10px;top:16px;"></i>
+        </div>
+        <a href="#" class="text-decoration-none text-dark mt-2 mx-5"> <small>حساب کاربری</small> </a>
+        <button type="button" class="btn position-relative mt-2" style="box-shadow: none;">
+            <i class="fa-solid fa-cart-shopping fs-4"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                3
+              <span class="visually-hidden">unread messages</span>
+            </span>
+        </button>
+    </div>
+  </div>
+</nav> -->
