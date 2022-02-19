@@ -1,25 +1,28 @@
-// .navbar_wraper{
-// }
-.navbar-style{
-    background-color: #F8F7FE;
-    box-shadow: 10px;
-    .navbar_links>.nav-item{
-        text-align: center;
-        margin: 0 10px;
-        width: 100px;
-        border-radius: 40px;
-        a{
-            color: black !important;
-        }
-        &:hover{
-            background-color: #5F7ED9;
+.navbar_wraper{
+    .navbar-style{
+        background-color: #F8F7FE;
+        box-shadow: 10px;
+        .navbar_links>.nav-item{
+            text-align: center;
+            margin: 0 10px;
+            width: 100px;
+            border-radius: 40px;
             a{
-                color: white !important;
+                color: black !important;
+            }
+            &:hover{
+                background-color: #5F7ED9;
+                a{
+                    color: white !important;
+                }
             }
         }
-    }
-    .navbarSupportedContent{
-        width: 20% !important;
-        background-color: black !important;
+        .navbarSupportedContent{
+            width: 20% !important;
+            background-color: black !important;
+        }
+        .search-input{
+            
+        }
     }
 }

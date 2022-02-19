@@ -1,0 +1,24 @@
+.footer_wraper{
+    background-color: #011C40;
+    color: white !important;
+    .item{
+        div{
+            background-color: #EF394E;
+            padding: 2px 0;
+        }
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .email-input,.send-email{
+        height: 50px;
+        border-radius: 10px;
+        text-align: right;
+    }
+}
