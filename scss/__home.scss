@@ -110,18 +110,23 @@
         }
         .item{
             margin: 10px;
-            width: 90%;
+            width: 94%;
             border-radius: 20px;
             .item-title{
                
                 border-radius: 20px;
-                height: 125px;
+                height: 150px;
             }
         }
     }
-    .display-container-item2,display-container-item3{
+    .display-container-item2,.display-container-item3{
         @media (max-width:"600px") {
             display: none !important;
+        }
+    }
+    .display-input{
+        @media (max-width:"992px") {
+            display: block !important;
         }
     }
     .container-item2-sm{
@@ -132,7 +137,7 @@
     .container-item3{
         .item{
             margin: 10px auto;
-            width: 25.5%;
+            width:394px;
             background-color: #F1F0F5;
             border-radius: 20px;
         }
@@ -146,7 +151,7 @@
         }
         .img-gradient{
             bottom: -9px;
-            width: 381px;
+            width: 395px;
             height: 244px;
             background-image:linear-gradient(rgba(184, 184, 184, 0.507) 43%, rgba(5, 5, 5, 0.925) 66%) ;
             opacity: 0.5;
@@ -157,14 +162,18 @@
         }
     }
     .about-us{
-        height: 454px;
-        background-image: linear-gradient(#203b8c52), url("../../img/home/Mask\ Group\ 13.png"), ;
+        padding: 20px ;
+        height: auto;
+        background-image: linear-gradient(#203b8c52), url("../../img/home/Mask\ Group\ 13.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .container-item4{
         .item{
             width: 338px;
             border-radius: 20px;
             background-color: white;
+            margin-top: 70px;
         }
         .main-text{
             width:100%;
@@ -177,7 +186,7 @@
         .main-title4{
             width: 95%;
             height: 178px;
-            top: 30px;
+            top: 90px;
             border-radius: 30px;
             background-image: linear-gradient(to right, #1e2f64  36% ,#203B8C 50% );
         }
@@ -218,6 +227,27 @@
         height: auto;
         .main-img{
             width: 200%;
+        }
+    }
+    @media (max-width:"992px") {
+        .title-color{
+            font-size: 20px !important;
+        }
+        .title-text{
+            font-size: 11px !important;
+        }
+    }
+    @media (max-width:"500px") {
+        .title-color{
+            font-size: 14px !important;
+        }
+        .title-text{
+            font-size: 8px !important;
+        }
+    }
+    @media (max-width:"700px") {
+        .text-width{
+            width: 80% !important;
         }
     }
 }

@@ -1,5 +1,8 @@
 .navbar_wraper{
     .navbar-style{
+        @media (max-width:"992px") {
+                background-color: white !important;
+        }
         background-color: #F8F7FE;
         box-shadow: 10px;
         .navbar_links>.nav-item{
@@ -21,8 +24,10 @@
             width: 20% !important;
             background-color: black !important;
         }
-        .search-input{
-            
+        .search-input,.display-btn{
+            @media (max-width:"992px") {
+                display: none !important;
+            }
         }
     }
 }

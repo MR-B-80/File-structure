@@ -145,18 +145,24 @@
 
 .home .container-item2 .item {
   margin: 10px;
-  width: 90%;
+  width: 94%;
   border-radius: 20px;
 }
 
 .home .container-item2 .item .item-title {
   border-radius: 20px;
-  height: 125px;
+  height: 150px;
 }
 
 @media (max-width: 600px) {
-  .home .display-container-item2, .home display-container-item3 {
+  .home .display-container-item2, .home .display-container-item3 {
     display: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .home .display-input {
+    display: block !important;
   }
 }
 
@@ -168,7 +174,7 @@
 
 .home .container-item3 .item {
   margin: 10px auto;
-  width: 25.5%;
+  width: 394px;
   background-color: #F1F0F5;
   border-radius: 20px;
 }
@@ -184,7 +190,7 @@
 
 .home .container-item3 .img-gradient {
   bottom: -9px;
-  width: 381px;
+  width: 395px;
   height: 244px;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(43%, rgba(184, 184, 184, 0.507)), color-stop(66%, rgba(5, 5, 5, 0.925)));
   background-image: linear-gradient(rgba(184, 184, 184, 0.507) 43%, rgba(5, 5, 5, 0.925) 66%);
@@ -197,15 +203,19 @@
 }
 
 .home .about-us {
-  height: 454px;
+  padding: 20px;
+  height: auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#203b8c52)), url("../../img/home/Mask Group 13.png");
   background-image: linear-gradient(#203b8c52), url("../../img/home/Mask Group 13.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home .container-item4 .item {
   width: 338px;
   border-radius: 20px;
   background-color: white;
+  margin-top: 70px;
 }
 
 .home .container-item4 .main-text {
@@ -220,7 +230,7 @@
 .home .container-item4 .main-title4 {
   width: 95%;
   height: 178px;
-  top: 30px;
+  top: 90px;
   border-radius: 30px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(36%, #1e2f64), color-stop(50%, #203B8C));
   background-image: linear-gradient(to right, #1e2f64 36%, #203B8C 50%);
@@ -275,10 +285,40 @@
   width: 200%;
 }
 
+@media (max-width: 992px) {
+  .home .title-color {
+    font-size: 20px !important;
+  }
+  .home .title-text {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .home .title-color {
+    font-size: 14px !important;
+  }
+  .home .title-text {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .home .text-width {
+    width: 80% !important;
+  }
+}
+
 .navbar_wraper .navbar-style {
   background-color: #F8F7FE;
   -webkit-box-shadow: 10px;
           box-shadow: 10px;
+}
+
+@media (max-width: 992px) {
+  .navbar_wraper .navbar-style {
+    background-color: white !important;
+  }
 }
 
 .navbar_wraper .navbar-style .navbar_links > .nav-item {
@@ -305,6 +345,12 @@
   background-color: black !important;
 }
 
+@media (max-width: 992px) {
+  .navbar_wraper .navbar-style .search-input, .navbar_wraper .navbar-style .display-btn {
+    display: none !important;
+  }
+}
+
 @font-face {
   font-family: "Samim";
   src: url("https://v1.fontapi.ir/css/Samim:400");
@@ -317,6 +363,26 @@
 .footer_wraper {
   background-color: #011C40;
   color: white !important;
+}
+
+@media (max-width: 992px) {
+  .footer_wraper .item, .footer_wraper .share-text, .footer_wraper .email {
+    font-size: 10px;
+  }
+  .footer_wraper .send-email, .footer_wraper .email-input {
+    font-size: 8px;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer_wraper {
+    margin-bottom: 80px;
+  }
+}
+
+.footer_wraper .item {
+  width: 30%;
 }
 
 .footer_wraper .item div {
@@ -337,5 +403,21 @@
   height: 50px;
   border-radius: 10px;
   text-align: right;
+}
+
+.mobile {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .mobile .mobile-style {
+    display: block !important;
+  }
+}
+
+.mobile .item {
+  border: none;
+  font-size: 10px;
+  width: 50px;
 }
 /*# sourceMappingURL=All.css.map */

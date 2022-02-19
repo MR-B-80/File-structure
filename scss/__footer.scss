@@ -1,7 +1,20 @@
 .footer_wraper{
     background-color: #011C40;
     color: white !important;
+    @media (max-width:"992px") {
+        .item,.share-text,.email{
+            font-size: 10px;
+        }
+        .send-email,.email-input{
+            font-size: 8px;
+            height:30px !important ;
+        }
+    }
+    @media (max-width:"600px") {
+        margin-bottom: 80px;
+    }
     .item{
+        width: 30%;
         div{
             background-color: #EF394E;
             padding: 2px 0;

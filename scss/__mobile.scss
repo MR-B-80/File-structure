@@ -1,0 +1,17 @@
+.mobile{
+    // box-shadow: 10px !important;
+    width: 100%;
+    @media (max-width:"600px") {
+        .mobile-style{
+            display: block !important;
+        }
+    }
+    .item-margin{
+        // margin:0 15%;
+    }
+    .item{
+        border: none;
+        font-size: 10px;
+        width: 50px;
+    }
+}
